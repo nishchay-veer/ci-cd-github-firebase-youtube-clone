@@ -1,0 +1,10 @@
+.container__searchpage{
+    margin-left: 20vw;
+    padding: 20px;
+    width: 100%;
+    
+    /* background-color: rgb(216, 212, 212); */
+}
+.icons{
+    display: flex;
+}

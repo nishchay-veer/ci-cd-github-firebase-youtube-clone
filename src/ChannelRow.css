@@ -1,0 +1,32 @@
+.channel__container{
+    /* margin-left: 25vw; */
+    margin-top: 20px;
+    width: 700px;
+    height: 136px;
+    display: flex;
+}
+.channel__info{
+    margin-left: 5px;
+    padding: 10px;
+}
+.btn{
+    height: 117.96px;
+    width: 136px;
+}
+.btn>  button{
+    height: 40px;
+    margin-top: 25px;
+    width: 120px;
+    background-color: #c00;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.btn>  button:hover{
+    cursor: pointer;
+    background-color: rgb(251, 38, 38);
+}
+img{
+    height: 100px;
+    width: 100px;
+}

@@ -1,0 +1,25 @@
+.videocard__info{
+    display: flex;
+    height: 94px;
+    width: 297.3px;
+}
+.container{
+    width: 320px;
+    margin-bottom: 20px;
+    margin: 20px 20px;
+}
+.container > img {
+    height: 180.22px;
+    width: 317.3px;
+}
+.videocard__info > img{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+.info{
+    height: 80px;
+    width: 317.3px;
+    padding: 2px 4px;
+    font-size: 13px;
+}

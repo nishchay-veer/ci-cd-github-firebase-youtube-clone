@@ -1,0 +1,20 @@
+.videoRow{
+    width: 860px;
+    height: 201.98px;
+    display: flex;
+    margin: 10px;
+}
+.thumbnail{
+    height: 201.98px;
+    width: 360px;
+}
+.thumbnail > img{
+    height: 201.98px;
+    width: 360px;
+}
+.videoRow__info{
+    width: 484px;
+    height: 165px;
+    margin-left: 10px;
+
+}

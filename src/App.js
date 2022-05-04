@@ -1,24 +1,48 @@
-import logo from './logo.svg';
+import Header from './Header';
+import React from 'react';
 import './App.css';
+import Sidebar from './Sidebar';
+import RecommendingVideos from './RecommendingVideos';
+import SearchPage from './SearchPage';
+// import { Switch } from '@mui/material';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+        <Switch>
+          <Route path="/search">
+            <div className="header">
+              <Header />
+
+            </div>
+            <div className="section">
+              <Sidebar />
+              {/* <RecommendingVideos /> */}
+              <SearchPage/>
+            </div>
+          </Route>
+          <Route path="/">
+            <div className="header">
+              <Header />
+
+            </div>
+            <div className="section">
+              <Sidebar />
+              <RecommendingVideos />
+            </div>
+          </Route>
+        </Switch>
+      </Router>
+
+      {/* <div className="section">
+        <Sidebar />
+        <RecommendingVideos />
+      </div> */}
     </div>
+
+
   );
 }
 

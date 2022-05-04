@@ -1,0 +1,12 @@
+.recommendingVideos{
+    margin-left: 20vw;
+    /* margin-right: 0px; */
+    /* margin-left:200px ; */
+    /* padding: 40px 20px ; */
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-right: 20px; */
+    /* margin: 20 px; */
+    /* border: 1px solid black; */
+    /* width: 80vw; */
+}

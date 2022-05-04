@@ -1,0 +1,27 @@
+.sideBarRow{
+    display: flex;
+    padding: 20px;
+}
+.sidebar__heading{
+    font-size: 15px;
+    margin-left: 15px
+}
+.sideBarRow:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+.sideBarRow:hover .sidebarRow__logo{
+    color: red;
+}
+.sideBarRow:hover .sidebar__heading{
+    font-weight: bold;
+}
+.sideBarRow.selected > .sidebar__heading{
+    font-weight: bold;
+}
+.sideBarRow.selected > .sidebarRow__logo{
+    color: red;
+}
+.sideBarRow.selected{
+    background-color: lightgrey;
+}
